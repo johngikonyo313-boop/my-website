@@ -1,0 +1,64 @@
+/* Global Reset and Typography */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Header Styling */
+header {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #0066cc;
+    margin-bottom: 8px;
+}
+
+/* Main Content Sections */
+main section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+main h2 {
+    color: #444;
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 6px;
+}
+
+/* Lists */
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #777;
+    margin-top: 30px;
+}
